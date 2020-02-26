@@ -86,7 +86,7 @@ pub use crate::load_extension_guard::LoadExtensionGuard;
 pub use crate::row::{AndThenRows, MappedRows, Row, RowIndex, Rows};
 pub use crate::statement::{Statement, StatementStatus};
 pub use crate::transaction::{DropBehavior, Savepoint, Transaction, TransactionBehavior};
-pub use crate::types::{ToSql,FromSql, ToSqlOutput, FromSqlResult, FromSqlError, ValueRef};
+pub use crate::types::{ToSql,FromSql, ToSqlOutput, FromSqlResult, FromSqlError};
 pub use crate::version::*;
 
 #[macro_use]
